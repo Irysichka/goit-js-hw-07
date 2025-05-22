@@ -1,3 +1,25 @@
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+  background-color:#f6f6fe; 
+border-radius: 8px;
+
+}
+.first-list{
+    width: 440px;
+    height: 888px;
+    padding-left: 24px;
+}
+
+
 .title {
     font-family: "Montserrat", sans-serif;
         font-weight: 600;
@@ -5,6 +27,8 @@
         line-height: 1.33;
         letter-spacing: 0.04em;
         color: #2e2f42;
+        padding-top: 16px;
+        padding-bottom: 16px;
 }
 
 .animal-list { }
@@ -14,14 +38,43 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    border: 2px solid #2e2f42;
+padding-top: 8px;
+padding-left: 16px;
+padding-bottom: 8px;
+margin-bottom: 8px;}
 
 .food-list {
-    background-color: black;
+
 }
 
-.food-list-item {}
+.food-list-item {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        border: 2px solid #2e2f42;
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
 
 .it-list {}
 
-.it-list-item {}
+.it-list-item {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        border: 2px solid #2e2f42;
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
